@@ -1,0 +1,39 @@
+Prototype Concept:
+------------------
+
+Defination:
+--------------
+    Prototypes is a simple way to share behaviour and data between multiple objects. 
+
+Need of Prototyping:-
+----------------------
+
+    1.Sometimes you want to add new properties (or methods) to all existing objects of a given type.
+    2.Sometimes you want to add new properties (or methods) to an object constructor.
+
+Example:
+        The JavaScript prototype property allows you to add new properties to object constructors:
+
+        function Person(first, last, age, eyecolor) {
+                                this.firstName = first;
+                                this.lastName = last;
+                                this.age = age;
+                                this.eyeColor = eyecolor;
+                                                    }
+
+        Person.prototype.nationality = "English";
+
+
+How prototypeing is realted to ES6:
+-------------------------------------
+1.  In JavaScript we have Function Constructors, which have been the common way to build new objects until ES6. 
+    Unfortunately Function Constructors can be quite confusing to understand (especially if you want to model 
+    inheritance). To alleviate this, ES6 introduces the class syntax.
+
+2.  Classes in ES6 don't add any functionality to what we already have in the language, they are just a 
+    simpler syntax for building the same objects as we had before.
+
+        
+
+
+
